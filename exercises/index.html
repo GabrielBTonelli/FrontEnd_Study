@@ -1,30 +1,73 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet">
         <title>Little Lemon</title>
     </head>
     <body>
-        <h1>Our Menu</h1>
-        <h2>Falafel</h2>
-        <p>Chickpea, herbs and spices.</p>
-        <img src="image.jpg" width="240" height="145" alt="A falafel"> <!---inserts image and its' details like size / caption-->
-        <h2>Pasta Salad</h2>
-        <p>Lettuce, vegetables and mozzarella.</p>
-        <img src="image.jpg" width="240" height="145" alt="A pasta salad"><br>
-        <a href="location.html">Our location</a>
-        <table>                                                        <!--Creating table-->
-            <tr>
-                <th>Dish</th>
-                <th>Price</th>
-            </tr>
-            <tr>
-                <td>Falafel</td>
-                <td>$10.00</td>
-            </tr>
-            <tr>
-                <td>Pasta Salad</td>
-                <td>$12.00</td>
-            </tr>
-        </table>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 id="header1">Our Menu</h1>
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="card">
+                                <img src="friedcalamari.webp" class="card-img-top" width="90" height="300">
+                                <div class="card-body">
+                                    <h2 class="card-title">Fried Calamari <span class="badge bg-primary">New</span></h2>
+                                    <p class="card-text">Squid and Buttermilk.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="card">
+                                <img src="falafel.jpeg" class="card-img-top" width="90" height="300">
+                                <div class="card-body">
+                                    <h2 class="card-title">Falafel</h2>
+                                    <p class="card-text">Chickpea, Herbs and Spices.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="card">
+                                <img src="pastasalad.jpeg" class="card-img-top" width="90" height="300">
+                                <div class="card-body">
+                                    <h2 class="card-title">Pasta Salad</h2>
+                                    <p class="card-text">Lettuce, Vegetables and Mozzarella.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <a href="location.html">Our location</a><br>
+                    <br>
+                    <table class="table">
+                        <tr>
+                            <th>Dish</th>
+                            <th>Price</th>
+                            
+                        </tr>
+                        <tr>
+                            <td>Fried Calamari</td>
+                            <td>$12.00</td>
+                        </tr>
+                        <tr>
+                            <td>Falafel</td>
+                            <td>$10.00</td>
+                        </tr>
+                        <tr>
+                            <td>Pasta Salad</td>
+                            <td>$12.00</td>
+                        </tr>
+                    </table>
+                    <div class="alert alert-info" role="alert">
+                        Try our new Fried Calamari!
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"></script>
     </body>
 </html>
